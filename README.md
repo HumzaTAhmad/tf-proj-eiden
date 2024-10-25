@@ -1,14 +1,5 @@
 ## Prerequisites
 
-- Terraform installed
-- AWS credentials configured (either through environment variables or AWS CLI)
-
-# Terraform AWS Setup
-
-This repository contains a Terraform configuration to set up an AWS Auto Scaling group with EC2 instances using a launch template and security group configurations.
-
-## Prerequisites
-
 1. **Create AWS Resources**
    - Create a VPC with at least **two private subnets** in the desired AWS region.
    - Create an **IAM role** with an EC2 instance profile and attach any necessary permissions for your setup.
