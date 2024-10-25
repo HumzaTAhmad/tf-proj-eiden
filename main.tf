@@ -35,7 +35,7 @@ resource "aws_launch_template" "humza_launch_template" {
     device_name = "/dev/xvdb"
     ebs {
       volume_size           = 100
-      delete_on_termination = true
+      delete_on_termination = false
     }
   }
 }
